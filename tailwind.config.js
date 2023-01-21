@@ -23,6 +23,8 @@ module.exports = {
     lineClamp: ['responsive', 'hover']
 
   },
-  plugins: [  
+  plugins: [ 
+    require('@tailwindcss/line-clamp'),
+    require('tailwind-scrollbar-hide'),
   ],
 };
