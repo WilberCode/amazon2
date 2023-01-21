@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useSelector } from "react-redux"; 
 import { selectCount } from "../features/counter/counterSlice";
+import {MapPinIcon} from '@heroicons/react/20/solid'
  
 
 export default function Home({products}) { 
@@ -15,7 +16,7 @@ export default function Home({products}) {
 
        
       <main  className="max-w-screen-2xl mx-auto mb-20" style={{textAlign:'center'}}  >
-        <h1  className="text-center text-[48px]" > Amazon2 Test</h1>
+        <h1  className="text-center text-[48px]" > Amazon2 Test  <MapPinIcon className="w-8" /> </h1>
       </main>
     </div>
   );
