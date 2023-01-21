@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hanger{
+    @apply absolute w-[10px] h-[10px] transform  rotate-[224deg] right-[19%] top-[-6px] z-10 ;
+    border-style: solid;
+    border-width: 8px;
+    border-color:  transparent white  white transparent   ;
+}
+ 
+.btn{
+    @apply py-1 px-3  rounded-[3px] font-normal text-sm border border-solid leading-relaxed inline-flex items-center justify-center bg-amazon_blue-mellow text-amazon_blue-dark border-red-400 ;
+}
+
+.link--decoration{
+    @apply px-2 py-[2px] ring-1 ring-transparent hover:ring-white;
+}
+
+.line-clamp-d-2{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
