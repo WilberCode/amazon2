@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.hanger{
+/* .hanger{
     @apply absolute w-[10px] h-[10px] transform  rotate-[224deg] right-[19%] top-[-6px] z-10 ;
     border-style: solid;
     border-width: 8px;
@@ -23,4 +22,4 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
-}
+} */

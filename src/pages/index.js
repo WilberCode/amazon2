@@ -15,7 +15,7 @@ export default function Home({products}) {
 
        
       <main  className="max-w-screen-2xl mx-auto mb-20" style={{textAlign:'center'}}  >
-        Amazon2 Test
+        <h1  className="text-center text-[48px]" > Amazon2 Test</h1>
       </main>
     </div>
   );
